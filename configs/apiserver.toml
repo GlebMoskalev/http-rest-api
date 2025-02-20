@@ -1,3 +1,4 @@
 bind_addr = ":8080"
 log_level = "debug"
 database_url = "host=localhost port=5432 dbname=BetonchelDb user=postgres password=postgres sslmode=disable"
+session_key = "9FAD62FCA5DE2D86FB56BBA2D42FF1BED2C8B748ACC2D5FD55E1DE18EE"
