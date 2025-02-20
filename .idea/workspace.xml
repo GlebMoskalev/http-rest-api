@@ -5,33 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="458c8816-b44c-4150-9211-dd8ffd7c589e" name="Changes" comment="Add database setup">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/311ac302-ecc7-47e9-9557-261f5ee389e2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/311ac302-ecc7-47e9-9557-261f5ee389e2/storage_v2/_src_/database/BetonchelDb.esdaZw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/311ac302-ecc7-47e9-9557-261f5ee389e2/storage_v2/_src_/database/BetonchelDb.esdaZw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/311ac302-ecc7-47e9-9557-261f5ee389e2/storage_v2/_src_/database/BetonchelDb.esdaZw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/311ac302-ecc7-47e9-9557-261f5ee389e2/storage_v2/_src_/database/BetonchelDb.esdaZw/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/311ac302-ecc7-47e9-9557-261f5ee389e2/storage_v2/_src_/database/restapi_test.awsAUQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/311ac302-ecc7-47e9-9557-261f5ee389e2/storage_v2/_src_/database/restapi_test.awsAUQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/311ac302-ecc7-47e9-9557-261f5ee389e2/storage_v2/_src_/database/restapi_test.awsAUQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/311ac302-ecc7-47e9-9557-261f5ee389e2/storage_v2/_src_/database/restapi_test.awsAUQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/app/model/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/app/store/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/app/store/store.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/app/store/store_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/app/store/testing.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/app/store/userrepository.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/app/store/userrepository_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/20250220071619_create_users.down.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/20250220071619_create_users.up.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/311ac302-ecc7-47e9-9557-261f5ee389e2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/311ac302-ecc7-47e9-9557-261f5ee389e2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/311ac302-ecc7-47e9-9557-261f5ee389e2/storage_v2/_src_/database/restapi_test.awsAUQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/311ac302-ecc7-47e9-9557-261f5ee389e2/storage_v2/_src_/database/restapi_test.awsAUQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/apiserver.toml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/apiserver.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/apiserver/apiserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/apiserver/apiserver.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/apiserver/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/apiserver/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/model/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/model/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/userrepository.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/userrepository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/store/userrepository_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/store/userrepository_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +59,9 @@
     "Go Test.TestApiServer_HandleHello in github.com/GlebMoskalev/http-rest-api/internal/app/apiserver.executor": "Run",
     "Go Test.TestUserRepository_Create in github.com/GlebMoskalev/http-rest-api/internal/app/store.executor": "Run",
     "Go Test.TestUserRepository_FindByEmail in github.com/GlebMoskalev/http-rest-api/internal/app/store.executor": "Run",
+    "Go Test.TestUser_BeforeCreate in github.com/GlebMoskalev/http-rest-api/internal/app/model.executor": "Run",
+    "Go Test.TestUser_Validate in github.com/GlebMoskalev/http-rest-api/internal/app/model.executor": "Run",
+    "Go Test.TestUser_Validate/valid in github.com/GlebMoskalev/http-rest-api/internal/app/model.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -96,19 +80,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Go Test.TestUserRepository_FindByEmail in github.com/GlebMoskalev/http-rest-api/internal/app/store">
-    <configuration name="TestApiServer_HandleHello in github.com/GlebMoskalev/http-rest-api/internal/app/apiserver" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="http-rest-api" />
-      <working_directory value="$PROJECT_DIR$/internal/app/apiserver" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/GlebMoskalev/http-rest-api/internal/app/apiserver" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestApiServer_HandleHello\E$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestUser_Validate in github.com/GlebMoskalev/http-rest-api/internal/app/model">
     <configuration name="TestUserRepository_Create in github.com/GlebMoskalev/http-rest-api/internal/app/store" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="http-rest-api" />
       <working_directory value="$PROJECT_DIR$/internal/app/store" />
@@ -133,11 +105,49 @@
       <pattern value="^\QTestUserRepository_FindByEmail\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestUser_BeforeCreate in github.com/GlebMoskalev/http-rest-api/internal/app/model" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="http-rest-api" />
+      <working_directory value="$PROJECT_DIR$/internal/app/model" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/GlebMoskalev/http-rest-api/internal/app/model" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestUser_BeforeCreate\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUser_Validate in github.com/GlebMoskalev/http-rest-api/internal/app/model" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="http-rest-api" />
+      <working_directory value="$PROJECT_DIR$/internal/app/model" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/GlebMoskalev/http-rest-api/internal/app/model" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestUser_Validate\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUser_Validate/valid in github.com/GlebMoskalev/http-rest-api/internal/app/model" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="http-rest-api" />
+      <working_directory value="$PROJECT_DIR$/internal/app/model" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/GlebMoskalev/http-rest-api/internal/app/model" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestUser_Validate\E$/^\Qvalid\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestUserRepository_FindByEmail in github.com/GlebMoskalev/http-rest-api/internal/app/store" />
+        <item itemvalue="Go Test.TestUser_Validate in github.com/GlebMoskalev/http-rest-api/internal/app/model" />
+        <item itemvalue="Go Test.TestUser_Validate/valid in github.com/GlebMoskalev/http-rest-api/internal/app/model" />
         <item itemvalue="Go Test.TestUserRepository_Create in github.com/GlebMoskalev/http-rest-api/internal/app/store" />
-        <item itemvalue="Go Test.TestApiServer_HandleHello in github.com/GlebMoskalev/http-rest-api/internal/app/apiserver" />
+        <item itemvalue="Go Test.TestUserRepository_FindByEmail in github.com/GlebMoskalev/http-rest-api/internal/app/store" />
+        <item itemvalue="Go Test.TestUser_BeforeCreate in github.com/GlebMoskalev/http-rest-api/internal/app/model" />
       </list>
     </recent_temporary>
   </component>
